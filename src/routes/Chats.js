@@ -44,6 +44,8 @@ function Chats() {
                 </div>
             </div>
         </header>
+
+        
         <div>
             <main className="chats">
                 <div className="search">
