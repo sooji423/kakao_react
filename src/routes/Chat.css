@@ -1,0 +1,28 @@
+/* chat.css */
+.chat_body{padding-bottom:0 !important;}
+
+.chat_header{background: #a1c0d6;  color:#000; border-bottom:1px solid #91acc0;}
+.chat_header a{color:#000;}
+.chat{height: 87vh; background: #a1c0d6;}
+.icon{font-size: 1.3em; line-height:0.75em;}
+
+.chat{padding:12px 10px 0px;}
+.data{text-align: center; font-size: 12px; opacity: 0.5; margin-bottom:15px;}
+
+.chat_msg{display: flex; align-items: flex-end; margin-bottom:10px;}
+.to_you{justify-content: flex-end;}
+.chat_time{font-size:10px; opacity: 0.5;}
+.message{display: flex; flex-direction: column;}
+.message h3{font-size: 12px; font-weight: bold; margin-bottom:5px;}
+
+.comment{padding:10px 5px; border-radius: 5px;}
+.to_me>img{width:36px; height: 36px; border-radius: 18px; align-self: flex-start; margin-right:10px;}
+.to_you .comment{background: #ffe934; align-self: flex-end;  margin:5px 0 5px 5px;}
+.to_me .comment{background: #fff; align-self: flex-start; margin:5px 5px 5px 0;}
+
+.chating{position: fixed; display: flex; justify-content: space-between; align-items: center; width:100%; bottom:0; height: 45px; box-sizing: border-box; padding:5px 10px; background: #eee;}
+.chating>i{color:#b4b4b4;}
+.chating_msg{position: relative; display: flex; justify-content: flex-end; align-items: center; width:80%;}
+.chating_msg input{width:100%; padding:8px 10px;}
+.chating_msg>i{position: absolute; right:40px; color:#b4b4b4;}
+.chating_msg span{padding:8px 10px; background: #ffe934; color:#532727; cursor: pointer;}

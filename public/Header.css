@@ -1,0 +1,14 @@
+/* header.css */
+.header{z-index: 2; position: fixed; top:0; width:100%; background: #513736; padding:5px 10px 15px 10px; color:#fff;}
+
+.h_top{display: flex; margin-bottom:15px;}
+.h_top .h_column{font-size:12px;}
+
+.h_column{width:33.3%;}
+.h_column:nth-child(2){text-align: center;}
+.h_column:nth-child(3){text-align: right;}
+
+.h_bottom{display: flex; margin:0 10px;}
+.txt{opacity: 0.5;}
+.h_bottom a{color:#fff;}
+.number{color:yellow;}

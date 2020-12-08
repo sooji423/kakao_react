@@ -1,0 +1,21 @@
+/* chats.css */
+.chats{padding-bottom:54px;}
+
+.chats_list{border-top:1px solid #ebebeb;}
+.chats_list li{padding:15px; border-bottom:1px solid #ebebeb;}
+
+.chats a{display: flex; justify-content: space-between;text-decoration: none; color:#000;}
+.chats>a>span{font-size:10px; color:#b4b4b4;}
+
+.chat_content{display: flex; align-items: center;}
+
+.chat_content img{width:50px; height: 50px; border-radius: 50px; margin-right:15px;}
+.chats_info h3{margin-bottom:5px; color:#000; font-weight: bold;}
+.chats_info span{font-size:11px; color:#b4b4b4;}
+
+/* talk_btn */
+.talk_btn{display: flex; align-items: center; justify-content: center; position: fixed; right:20px; bottom:80px; width:60px; height:60px; background:#fde84d; border-radius: 30px; box-shadow: 0 3px 10px rgba(0,0,0,0.2); cursor: pointer; transition: color 0.3s, background 0.3s}
+.talk_btn:hover{background:#523737;}
+.talk_btn i{font-size: 20px; color:#523737;}
+.talk_btn:hover i{color:#fff;}
+

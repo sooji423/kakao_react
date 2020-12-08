@@ -1,0 +1,28 @@
+/* more.css */
+.more{background: #f2f2f2;}
+.more section{background: #fff;}
+.more>header{display: flex; justify-content: space-between; padding:11px 15px 15px; background: #fff; margin-bottom:10px;}
+.more>header>span{display: flex; align-items: center;}
+.more>header>span>i{font-size:2em; color:#523737}
+.user_contents{display: flex; align-items: center;}
+.user_contents img{width:50px; border-radius: 25px; margin-right:20px;}
+.user_content h3{font-weight: bold; color:#523737; margin-bottom:5px;}
+.user_content span{font-size: 12px; color:#b4b4b4;}
+
+.more_options{display: flex; justify-content: space-between; padding:18px 15px 15px; margin-bottom:10px;}
+.more_options>div{display: flex; flex-direction: column; align-items: center; color:#523737;}
+.more_options>div>i{font-size: 2em; margin-bottom:10px;}
+.more_options>div>span{font-size:12px;}
+
+.plus_friends{padding:20px; margin-bottom:10px;}
+.plus_friends>header{display: flex; justify-content: space-between; margin-bottom:30px;}
+.plus_friends>header>span{color:#b4b4b4;}
+.plus_options{display: flex; flex-wrap: wrap;}
+.plus_options>div{width:50%; margin-bottom:30px;}
+.plus_options>div>i{margin-right:20px;}
+.plus_options>div>span{font-size:13px;}
+
+.more_link{display: flex; padding:20px;}
+.more_link>div{display: flex; align-items: center; flex-direction: column; margin-right:20px;}
+.more_link img{height: 45px; margin-bottom:10px;}
+.more_link>div>span{font-size:12px;}

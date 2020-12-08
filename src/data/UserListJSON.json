@@ -1,0 +1,101 @@
+[
+	{
+		"id" : "0" ,
+		"name" : "neulbo" ,
+		"profileimg" : "https://i.pinimg.com/564x/ae/e8/8a/aee88a936e9b5b3776c5c50abb079112.jpg" ,
+		"profilemsg" : "Hello" ,
+		"email" : "UserId@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/1b/b8/72/1bb872ec64a7b34648e9af030d08934e.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "1" ,
+		"name" : "gamja" ,
+		"profileimg" : "https://i.pinimg.com/564x/63/f9/a9/63f9a90946fd5462a374a537a82f9478.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "gamja@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/0b/48/44/0b484482a484f1f6e477ec100e0d489a.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "2" ,
+		"name" : "jjyu" ,
+		"profileimg" : "https://i.pinimg.com/564x/37/d5/b3/37d5b3762d54bc0b807f7e057a6b4bf9.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "jjyu@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/3e/39/5e/3e395eb161343a4c91bf5a8a8e25004b.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "3" ,
+		"name" : "aegeu" ,
+		"profileimg" : "https://i.pinimg.com/564x/cd/c9/13/cdc913624ad63ec55807a846e54f7e41.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "aegeu@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/1a/00/63/1a00631a59fb9d8b6007ad76089fe4a5.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "4" ,
+		"name" : "cognac" ,
+		"profileimg" : "https://i.pinimg.com/564x/fc/bf/cd/fcbfcda561b6bb2601f4e7792eff2049.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "cognac@naver.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/34/28/55/3428551675f275e28461a3a918c97c61.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "5" ,
+		"name" : "mming" ,
+		"profileimg" : "https://i.pinimg.com/564x/af/42/37/af423739e6ee820e55197578d76bd136.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "mming@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/4c/fc/65/4cfc658878f6ae8bccf67155dcfe0e00.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "6" ,
+		"name" : "breeze" ,
+		"profileimg" : "https://i.pinimg.com/236x/98/1c/94/981c9448b6628dd859ffd7e455c04387.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "breeze@naver.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/78/17/3b/78173b0b24813f79f5e607e922c68465.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "7" ,
+		"name" : "soot" ,
+		"profileimg" : "https://i.pinimg.com/564x/84/c7/c9/84c7c980161a515e3074915d441c0e52.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "soot@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/90/b7/08/90b70863c1171df103c23d31b4548f7f.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "8" ,
+		"name" : "jian" ,
+		"profileimg" : "https://i.pinimg.com/564x/a1/77/99/a17799c3c47fc3bc0e86d715dae77c89.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "jian@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/4a/1b/f4/4a1bf4f2545db6acdf634aeaf522b672.jpg" ,
+		"chatmsg" : "Hello! This is a test message!" 
+	},
+	{
+		"id" : "9" ,
+		"name" : "suzy" ,
+		"profileimg" : "https://i.pinimg.com/564x/82/3a/77/823a772db554aa40426a57ec0738e0cf.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "suzy@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/4a/05/b2/4a05b2ff5f872f9f6b401efda6299a5e.jpg" ,
+		"chatmsg" : "You logged into KakaoTalk PC" 
+	},
+	{
+		"id" : "10" ,
+		"name" : "KakaoTalk" ,
+		"profileimg" : "https://i.pinimg.com/564x/89/34/f8/8934f895274de1fa7dda8a7ef7755fad.jpg" ,
+		"profilemsg" : "Have a good day. See you soon." ,
+		"email" : "kakaoTalk@gmail.com" ,
+		"backgroundimg" : "https://i.pinimg.com/236x/42/df/32/42df3218b297510fe046e533a0bedc28.jpg" ,
+		"chatmsg" : "You logged into KakaoTalk PC" 
+	}
+]

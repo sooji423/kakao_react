@@ -1,0 +1,16 @@
+/* search */
+.search{position: relative; padding:11px 25px 15px;}
+.search input{width:100%; border:1px solid #f1f2f4; padding:5px 0; text-align: center; border-radius: 5px; background: #f1f2f4; transition: border-color 0.2s linear 0s;}
+.search input:focus{outline: none; border-color: yellow;}
+.search i{position: absolute; top:16px; left:40px; color:#bbb;}
+
+/* global */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{font-family: 'Open Sans', sans-serif;}
+
+main{animation: 0.5s mainmove ease-in-out;}
+
+@keyframes mainmove{
+    0% {opacity: 0; transform: translateY(10px);}
+    100% {opacity: 1;}
+}
