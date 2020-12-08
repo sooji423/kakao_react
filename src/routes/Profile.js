@@ -18,28 +18,28 @@ function Profile(props) {
         <header className="header p_h">
             <div className="h_top">
                 <div className="h_column">
-                    <i class="fas fa-plane"></i>
-                    <i class="fas fa-wifi"></i>
+                    <i className="fas fa-plane"></i>
+                    <i className="fas fa-wifi"></i>
                 </div>
                 <div className="h_column">
                     <span className="time">17:33</span>
                 </div>
                 <div className="h_column">
-                    <i class="far fa-moon"></i>
-                    <i class="fab fa-bluetooth-b"></i>
-                    <span className="battery">100% <i class="fas fa-battery-full"></i></span>
+                    <i className="far fa-moon"></i>
+                    <i className="fab fa-bluetooth-b"></i>
+                    <span className="battery">100% <i className="fas fa-battery-full"></i></span>
                 </div>
             </div>
             <div className="h_bottom">
                 <div className="h_column">
                     <Link to="/" exact={true}>
-                        <i class="fas fa-times icon"></i>
+                        <i className="fas fa-times icon"></i>
                     </Link>
                 </div>
                 <div className="h_column">
                 </div>
                 <div className="h_column">
-                    <i class="fas fa-user icon"></i>
+                    <i className="fas fa-user icon"></i>
                 </div>
             </div>
         </header>
@@ -52,16 +52,16 @@ function Profile(props) {
             </header>
             <div className="container">
                 <input type="text" placeholder={email} />
-                <div class="p_icons">
+                <div className="p_icons">
                     <div>
                         <span className="p_icon">
-                            <i class="fas fa-comment icon"></i>
+                            <i className="fas fa-comment icon"></i>
                         </span>
                         <span>My Chatroom</span>
                     </div>
                     <div>
                         <span className="p_icon">
-                            <i class="fas fa-pencil-alt icon"></i>
+                            <i className="fas fa-pencil-alt icon"></i>
                         </span>
                         <span>Edit Profile</span>
                     </div>

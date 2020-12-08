@@ -18,39 +18,39 @@ function Chats() {
     useEffect(getData,[]);
     return (
         <>
-        <header class="header">
-            <div class="h_top">
-                <div class="h_column">
-                    <i class="fas fa-plane"></i>
-                    <i class="fas fa-wifi"></i>
+        <header className="header">
+            <div className="h_top">
+                <div className="h_column">
+                    <i className="fas fa-plane"></i>
+                    <i className="fas fa-wifi"></i>
                 </div>
-                <div class="h_column">
-                    <span class="time">17:33</span>
+                <div className="h_column">
+                    <span className="time">17:33</span>
                 </div>
-                <div class="h_column">
-                    <i class="far fa-moon"></i>
-                    <i class="fab fa-bluetooth-b"></i>
-                    <span class="battery">100% <i class="fas fa-battery-full"></i></span>
+                <div className="h_column">
+                    <i className="far fa-moon"></i>
+                    <i className="fab fa-bluetooth-b"></i>
+                    <span className="battery">100% <i className="fas fa-battery-full"></i></span>
                 </div>
             </div>
-            <div class="h_bottom">
-                <div class="h_column">
-                    <span class="txt">Edit</span>
+            <div className="h_bottom">
+                <div className="h_column">
+                    <span className="txt">Edit</span>
                 </div>
-                <div class="h_column">
-                    <span>Chats <i class="fas fa-caret-down"></i></span>
+                <div className="h_column">
+                    <span>Chats <i clclassNameass="fas fa-caret-down"></i></span>
                 </div>
-                <div class="h_column">
+                <div className="h_column">
                 </div>
             </div>
         </header>
         <div>
-            <main class="chats">
-                <div class="search">
-                    <i class="fas fa-search"></i>
+            <main className="chats">
+                <div className="search">
+                    <i className="fas fa-search"></i>
                     <input type="text" placeholder="Find friends, chats, Plus Friends" />
                 </div>
-                <ul class="chats_list">
+                <ul className="chats_list">
                         {chats.map((chat, idx) =>(
                             <ChatList 
                                 id = {chat.id}
@@ -62,8 +62,8 @@ function Chats() {
                 </ul>
             </main>
             <Nav />
-            <div class="talk_btn">
-                <i class="fas fa-comment"></i>
+            <div className="talk_btn">
+                <i className="fas fa-comment"></i>
             </div>
         </div>
         </>

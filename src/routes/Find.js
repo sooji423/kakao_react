@@ -6,49 +6,49 @@ import './Find.css';
 function Find() {
     return (
         <>
-        <header class="header">
-            <div class="h_top">
-                <div class="h_column">
-                    <i class="fas fa-plane"></i>
-                    <i class="fas fa-wifi"></i>
+        <header className="header">
+            <div className="h_top">
+                <div className="h_column">
+                    <i className="fas fa-plane"></i>
+                    <i className="fas fa-wifi"></i>
                 </div>
-                <div class="h_column">
-                    <span class="time">17:33</span>
+                <div className="h_column">
+                    <span className="time">17:33</span>
                 </div>
-                <div class="h_column">
-                    <i class="far fa-moon"></i>
-                    <i class="fab fa-bluetooth-b"></i>
-                    <span class="battery">100% <i class="fas fa-battery-full"></i></span>
+                <div className="h_column">
+                    <i className="far fa-moon"></i>
+                    <i className="fab fa-bluetooth-b"></i>
+                    <span className="battery">100% <i className="fas fa-battery-full"></i></span>
                 </div>
             </div>
-            <div class="h_bottom">
-                <div class="h_column">
-                    <span class="txt">Edit</span>
+            <div className="h_bottom">
+                <div className="h_column">
+                    <span className="txt">Edit</span>
                 </div>
-                <div class="h_column">
+                <div className="h_column">
                     <span>Find</span>
                 </div>
-                <div class="h_column">
+                <div className="h_column">
                 </div>
             </div>
         </header>
-        <main class="find">
+        <main className="find">
             <section>
-                <div class="find_options">
+                <div className="find_options">
                     <div>
-                        <i class="fas fa-address-book"></i>
+                        <i className="fas fa-address-book"></i>
                         <span>Find</span>
                     </div>
                     <div>
-                        <i class="fas fa-qrcode"></i>
+                        <i className="fas fa-qrcode"></i>
                         <span>QR Code</span>
                     </div>
                     <div>
-                        <i class="fas fa-mobile-alt"></i>
+                        <i className="fas fa-mobile-alt"></i>
                         <span>Shake</span>
                     </div>
                     <div>
-                        <i class="far fa-envelope"></i>
+                        <i className="far fa-envelope"></i>
                         <span>Invite via SMS</span>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ function Find() {
                 <header>
                     <h6>Recommended Friends</h6>
                 </header>
-                <div class="recommend_none">
+                <div className="recommend_none">
                     <span>You have no recommended friends.</span>
                 </div>
             </section>

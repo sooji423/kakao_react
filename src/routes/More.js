@@ -11,73 +11,73 @@ function More() {
     const plus = friends[0];
     return (
         <>
-        <header class="header">
-            <div class="h_top">
-                <div class="h_column">
-                    <i class="fas fa-plane"></i>
-                    <i class="fas fa-wifi"></i>
+        <header className="header">
+            <div className="h_top">
+                <div className="h_column">
+                    <i className="fas fa-plane"></i>
+                    <i className="fas fa-wifi"></i>
                 </div>
-                <div class="h_column">
-                    <span class="time">17:33</span>
+                <div className="h_column">
+                    <span className="time">17:33</span>
                 </div>
-                <div class="h_column">
-                    <i class="far fa-moon"></i>
-                    <i class="fab fa-bluetooth-b"></i>
-                    <span class="battery">100% <i class="fas fa-battery-full"></i></span>
+                <div className="h_column">
+                    <i className="far fa-moon"></i>
+                    <i className="fab fa-bluetooth-b"></i>
+                    <span className="battery">100% <i className="fas fa-battery-full"></i></span>
                 </div>
             </div>
-            <div class="h_bottom">
-                <div class="h_column">
-                    <span class="txt"></span>
+            <div className="h_bottom">
+                <div className="h_column">
+                    <span className="txt"></span>
                 </div>
-                <div class="h_column">
+                <div className="h_column">
                     <span>More</span>
                 </div>
-                <div class="h_column">
-                    <i class="fas fa-cog"></i>
+                <div className="h_column">
+                    <i className="fas fa-cog"></i>
                 </div>
             </div>
         </header>
-        <main class="more">
+        <main className="more">
         <header>
-            <div class="user_contents">
+            <div className="user_contents">
                 <img src={myprofile.profileimg} alt="" />
-                <div class="user_content">
+                <div className="user_content">
                     <h3>{myprofile.name}</h3>
                     <span>{myprofile.email}</span>
                 </div>
             </div>
             <span>
-                <i class="far fa-comment"></i>
+                <i className="far fa-comment"></i>
             </span>
         </header>
-        <section class="more_options">
+        <section className="more_options">
             <div>
-                <i class="far fa-smile"></i>
+                <i className="far fa-smile"></i>
                 <span>Emoticons</span>
             </div>
             <div>
-                <i class="fas fa-paint-brush"></i>
+                <i className="fas fa-paint-brush"></i>
                 <span>Themes</span>
             </div>
             <div>
-                <i class="far fa-hand-peace"></i>
+                <i className="far fa-hand-peace"></i>
                 <span>Plus Friend</span>
             </div>
             <div>
-                <i class="fas fa-user-circle"></i>
+                <i className="fas fa-user-circle"></i>
                 <span>Account</span>
             </div>
         </section>
-        <section class="plus_friends">
+        <section className="plus_friends">
             <header>
                 <h2>Plus Friends</h2>
                 <span>
-                    <i class="fas fa-info-circle"></i>
+                    <i className="fas fa-info-circle"></i>
                     Learn More
                 </span>
             </header>
-            <div class="plus_options">
+            <div className="plus_options">
                 {friends.map(friend=>(
                     <PlusFriends 
                         id = {friend.id}
@@ -87,7 +87,7 @@ function More() {
                 ))}
             </div>
         </section>
-        <section class="more_link">
+        <section className="more_link">
             <div>
                 <img src="images/kakaostory.png" alt="" />
                 <span>Kakao Story</span>
